@@ -1,0 +1,92 @@
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top:70px;
+}
+
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .updates {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .updates:hover {
+            background-color: #45a049;
+        }
+
+        .deletes{
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .deletes:hover{
+            background-color:darkred;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        .action-buttons button {
+            margin: 0 5px;
+        }
+
+    .product-form {
+       display: flex;
+       flex-direction: column;
+       gap: 10px;
+       margin-top: 20px;
+}
+
+.product-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
